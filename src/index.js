@@ -1,15 +1,7 @@
-import { func } from 'assert-plus';
 import menuTpl from './templates/menu-dishes.hbs';
-
-// const { func } = require("assert-plus");
-// const { classBody } = require("babel-types");
-// const { even } = require("prelude-ls");
 const menu = require("./menu.json");
 
 const refs = {
-    // toolbarContainer: document.querySelector('.toolbar'),
-    // themeSwitchContainer: document.querySelector('.theme-switch'),
-    // themeSwitchControlContainer: document.querySelector('.theme-switch__control'),
     inputThemeSwitchToggle: document.querySelector('#theme-switch-toggle'),
     menuList: document.querySelector('.js-menu'),
 }
